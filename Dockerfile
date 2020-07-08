@@ -1,4 +1,5 @@
 
-From mrkhalil6/edureka
+FROM nginx:alpine
+COPY . /usr/share/nginx/html
 ADD . /var/www/html
 
